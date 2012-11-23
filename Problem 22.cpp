@@ -65,7 +65,6 @@ int main()
     read_input("Pro22.txt");
     sort(in_vec.begin(), in_vec.end(), str_cmp);
 
-    // vector begins at index 1, not 0!!!
     for (int i = 1; i < in_vec.size(); i++) {
         result += score(i);
     }
